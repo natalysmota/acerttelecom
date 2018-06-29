@@ -1,0 +1,59 @@
+#footer {
+	width: 100%;
+	padding: 2%;
+	background-color: #36648B; 
+	float: left;
+}
+#espacoLogo {
+	width: 235px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.lblLogo1 {
+	font-size: 62px;
+	font-style: italic;
+	letter-spacing: -2px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #202348;
+}
+.lblLogo1.lblLogo2 {
+	font-family: 'Exo 2', sans-serif;
+	font-weight: normal;
+	letter-spacing: 15px;
+	font-size: 16px;
+	color: #ff941c;
+	margin-left: 8px;
+	margin-top: -4%;
+}
+.logo-footer {
+	width: 66px;
+	height: 75px;
+	margin-left: 155px;
+	margin-top: -30%;
+	background: url("images/logo-footer.png");
+}
+hr {
+	border: 0;
+	height: 1px;
+	background: #333;
+	margin-top: 5%;
+	background-image: linear-gradient(to right, #333, #CFCFCF, #333);
+}
+.txtFooter {
+	color: #E8E8E8;
+	font-size: 13px;
+	padding: 1%;
+	text-align: center;
+	font-family: sans-serif;
+}
+.btn-top {
+	width: 32px;
+	height: 32px;
+	float: right;
+	margin-right: 2%;
+	margin-top: 5%;
+	cursor: pointer;
+	background: url("images/seta.png") no-repeat;
+}

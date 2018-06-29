@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css?family=Philosopher:700");
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+
+#slide-principal {
+	width: 100%;
+	float: left;
+}
+#slide-principal img {
+	width: 100%;
+}
+
+/*============PLANOS===========*/
+#conteudo-planos {
+	width: 100%;
+	padding: 3% 4%;
+	float: left;
+}
+#conteudo-planos h1 {
+	width: 350px;
+	font-size: 2.4em;
+	color: #696969;
+	font-weight: bold;
+	font-family: 'Philosopher', sans-serif; 
+}
+.traco-abaixo-acert.traco-abaixo-banda {
+	width: 95%;
+}
+#conteudo-planos h2 {
+	font-size: 1.2em;
+	color: #828282;
+	margin-top: 2%;
+	font-family: sans-serif;
+}
+.corpo-plano {
+	width: 100%;
+	padding: 3% 4%;
+	margin-top: 7%;
+	border-right: 1px solid #C1C1C1;
+}
+.corpo-plano:nth-child(3) {
+	border-right: none;
+}
+.corpo-plano:hover {
+	margin-top: 5%;
+	transition: 1s;
+}
+.planos {
+	width: 100%;
+	float: left;
+}
+.quantidade-mega {
+	font-size: 1.8em;
+	text-align: center;
+	color: #363636;
+	font-weight: bold;
+}
+.valor-mega {
+	font-size: 2.3em;
+	text-align: center;
+	color: #475656;
+	padding-top: 4%;
+	color: #8B0A50;
+}
+.lblPor-mes {
+	color: #B5B5B5;
+	text-align: center;
+	padding-top: 3%;
+}
+.corpo-plano hr {
+	background-image: linear-gradient(to right, #fff, #cfcfcf, #fff);
+}
+.caixa-descricao {
+	width: 100%;
+	padding: 3% 4%;
+	background-color: #EEE9E9;
+	margin-top: 5%;
+}
+.caixa-descricao img {
+	width: 20px;
+}
+.txtDescricao {
+	color: #B5B5B5;
+	font-size: .9em;
+	margin-top: -22px;
+	margin-left: 25px;
+}
+.corpo-plano a {
+	width: 150px;
+	height: 40px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 12px;
+	color: #FFF;
+	border-radius: 5px;
+	background-color: #8B2252;
+	text-decoration: none;
+}
+.corpo-plano a:hover {
+	background-color: #8B1C62;
+}
+
+/*===========MUDE AGORA===========*/
+#mude-agora {
+	width: 100%;
+	float: left;
+	padding: 4%;
+	background-color: #E8E8E8;
+}
+#mude-agora h1 {
+	font-size: 2.3em;
+	text-align: center;
+	color: #4F4F4F;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+#mude-agora h2 {
+	font-size: 1.5em;
+	text-align: center;
+	color: #4F4F4F;
+	padding-top: 3%;
+	font-family: 'Lato', sans-serif;
+}
+#mude-agora hr {
+	margin-top: 2%;
+	background-image: linear-gradient(to right, #F8F8FF, #B5B5B5, #F8F8FF);
+}
+#mude-agora h3 {
+	width: 100%;
+	font-size: 1.2em;
+	padding: 3% 4%;
+	background-color: #FFA500;
+	text-decoration: none;
+	color: #363636;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+
+/*================QUEM SOMOS============*/
+#quem-somos {
+	width: 100%;
+	padding: 4%;
+	float: left;
+}
+#quem-somos h1 {
+	font-size: 4em;
+	color: #696969;
+	font-family: 'Philosopher', sans-serif;
+}
+#quem-somos h2 {
+	font-size: 1em;
+	color: #4F4F4F;
+	padding-top: 3%;
+	font-family: 'Lato', sans-serif;
+}
+.traco-abaixo-acert {
+	width: 200px;
+	border-bottom: 1px solid #CFCFCF;
+	padding-top: 2%;
+}
+#quem-somos h3 {
+	width: 100%;
+	font-size: 1.2em;
+	margin-top: 5%;
+	color: #696969;
+	font-family: 'Lato', sans-serif;
+}
+#quem-somos h4 {
+	font-size: 1.4em;
+	color: #363636;
+	padding-top: 5%;
+}
+
+/*==========SERVICOS===========*/
+#servicos {
+	width: 100%;
+	padding: 4% 2%;
+	float: left;
+	background-color: #F8F8FF;
+}
+#servicos h1 {
+	font-size: 2.4em;
+	color: #696969;
+	font-family: 'Philosopher', sans-serif;
+}
+.servico {
+	width: 100%;
+	padding: 3% 2%;
+	border: 1px solid #CFCFCF;
+	opacity: .8;
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+	background-color: #FFF;
+	margin-bottom: 3%;
+	margin-top: 5%;
+}
+.traco-abaixo-acert.traco-abaixo-servicos {
+	width: 230px;
+}
+.servico img {
+	padding-top: 5%;
+	padding-left: 37%;
+}
+.lblServico {
+	font-size: 1.2em;
+	text-align: center;
+	padding-bottom: 3%;
+}
+.txtServico {
+	font-size: .9em;
+	text-align: center;
+}
+
+/*===========CONTATOS===========*/
+#espaco-contato {
+	width: 100%;
+	float: left;
+	padding: 3% 2%;
+}
+#espaco-contato h1 {
+	font-size: 2.5em;
+	color: #4F4F4F;
+	font-family: 'Philosopher', sans-serif;
+}
+.informacao {
+	width: 100%;
+	text-align: center;
+	padding: 3%;
+	margin-bottom: 7px;-
+}
+.lblTituloInfo {
+	font-size: 1.2em;
+	color: #4F4F4F;
+	font-family: 'Philosopher', sans-serif;
+}
+.lblTituloInfo.txtInformacao {
+	font-family: arial;
+	font-size: .9em;
+	padding-top: 1.5%;
+}
+#google-maps {
+	width: 100%;
+	height: 250px;
+	float: left;
+}
+
+/*===============RESPONSIVO================*/
+@media screen and (min-width: 439px) {
+	.traco-abaixo-acert.traco-abaixo-servicos {
+		width: 330px;
+	}
+}
+@media screen and (min-width: 640px) {
+	#mude-agora h3 {
+		width: 40%;
+		padding: 1%;
+		margin-top: 3%;
+	}
+	#metas h2 {
+		margin-top: -2%;
+	}
+}
+@media screen and (min-width: 768px) {
+	.servico {
+		width: 49%;
+		float: left;
+		margin-right: 1%;
+	}
+	.servico:nth-child(2) {
+		margin-right: 0;
+	}
+	.informacao {
+		width: 48%;
+		float: left;
+		margin-right: 2%;
+	}
+	.informacao:nth-child(2) {
+		margin-right: 2%;
+	}
+	.informacao:nth-child(3) {
+		margin-right: 2%;
+	}
+	.informacao:nth-child(4) {
+		margin-right: 2%;
+	}
+}
+@media screen and (min-width: 900px) {
+	#mude-agora h3 {
+		width: 30%;
+	}
+	#conteudo-planos hr {
+		margin-top: 2%;
+	}
+	.corpo-plano {
+		width: 32%;
+		float: left;
+		margin-right: 2.4%;
+	}
+	.corpo-plano:nth-child(2) {
+		margin-left: -2%;
+		margin-right: 1%;
+	}
+	.servico {
+		width: 30%;
+		margin-left: 2%;
+	}
+	.servico:nth-child(2) {
+		margin-right: 2%;
+	}
+	.servico:nth-child(3) {
+		margin-right: 0;
+	}
+	.lblHora-atendimento {
+		float: right;
+	}
+}
+@media screen and (min-width: 980px) {
+	#quem-somos h2 {
+		font-size: 1.1em;
+	}
+	#quem-somos h3 {
+		margin-top: 3%;
+	}
+	
+}

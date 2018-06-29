@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	border: none;
+	font-weight: 300;
+	box-sizing: border-box;
+}
+#cabecalho {
+	width: 100%;
+	float: left;
+	padding: 2%;
+	background-color: #FFF;
+	border-bottom: 1px solid #E8E8E8;
+}
+.logo {
+	width: 234px;
+	height: 88px;
+	float: left;
+	background: url("images/logo.png") center center/234px no-repeat;
+	font-size: 0px;
+}
+
+/*=========== MENU ============*/
+.btn-menu {
+	width: 45px;
+	height: 35px;
+	margin-top: 3%;
+	float: right;
+	text-align: center;
+	cursor: pointer;
+	color: #1C1C1C;
+	border: 1px solid #1C1C1C;
+	border-radius: 5px;
+	background-color: #FFF;
+}
+.btn-menu:hover {
+	color: #FF7F24;
+	border: 1px solid #FF7F24;
+	transition: 1s;
+}
+.fechar-menu {
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+	color: #FFF;
+	background-color: transparent;
+}
+.fechar-menu:hover {
+	color: #FF3030;
+	border: 1px dashed #FF3030;
+	transition: 1s;
+	border-radius: 5px;
+}
+.menu {
+	width: 200px;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0, 0, 0, .9);
+	left: 0;
+	display: none;
+	z-index: 2;
+	float: left;
+}
+.menu ul {
+	width: 100%;
+	float: left;
+	margin-top: 40px;
+}
+.menu li {
+	padding: 15px;
+	list-style-type: none;
+}
+.menu li a {
+	font-size: 15px;
+	color: rgb(210, 219, 227);
+	float: left;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+.menu li a:hover {
+	color: #FF3030;
+	border: 1px dashed #FF3030;
+	transition: 1s;
+	border-radius: 5px;
+}
+
+/*=============== RESPONSIVE ===============*/
+@media screen and (min-width: 1000px) {
+	.btn-menu {display: none;}
+	.menu {
+		width: auto;
+		height: 30px;
+		line-height: 0;
+		padding-top: 0;
+		margin-top: 30px;
+		position: relative;
+		float: right;
+		background-color: transparent;
+		display: block !important;
+	}
+	.menu ul {
+		margin-top: 0;
+		list-style-type: none;
+	}
+	.menu li {
+		padding: 0;
+		float: right;
+	}
+	.menu li a {
+		font-size: .8em;
+		padding: 13px;
+		font-weight: 400;
+		color: #828282;
+	}
+	.menu li a:hover {
+		border: none;
+		text-shadow: 2px 2px 2px #EE7621;
+		color: #fff;
+		text-decoration: underline;
+		background-color: #123;
+	}
+	.fechar-menu {
+		display: none;
+	}
+}
